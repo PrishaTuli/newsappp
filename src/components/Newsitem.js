@@ -1,10 +1,6 @@
-// import React, { Component } from "react";
-import React from "react";    
 
-// export class Newsitem extends Component {
+import React from "react";    
   const Newsitem=(props)=>{
-  // render() {
-    // let { title, description, imageurl, newsurl, author, date ,source} = this.props;
     let { title, description, imageurl, newsurl, author, date ,source} = props;
     return (
       <div className="my-3">
@@ -20,10 +16,6 @@ import React from "react";
                 <span className="visually-hidden">unread messages</span>
               </span>
           </div>
-        {/* <span className="position-absolute top-0  translate-middle badge rounded-pill bg-danger" style={{left:'90%',zIndex:'1'}}>
-                {source}
-                <span className="visually-hidden">unread messages</span>
-              </span> */}
           <img
             src={
               !imageurl
