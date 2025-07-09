@@ -1,11 +1,6 @@
 // import React, { Component } from 'react'
 import React from 'react'
-// import {a} from "react-router-dom";
-
-// export class Navbar extends Component {
  const Navbar=() =>{
-
-  // render() {
     return (
       <div>
         <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
@@ -19,8 +14,6 @@ import React from 'react'
         <li className="nav-item ">
           <a className="nav-a text-decoration-none d-inline-block" aria-current="page" href="/">Home|</a>
         </li>
-        {/* <li className="nav-item"> */}
-        {/* <aclassName="nav-a" href="/About">About</aclassName=></li> */}
         <li className="nav-item "> <a className="nav-a text-decoration-none d-inline-block" aria-current="page" href="/business"> Business| </a></li>
         <li className="nav-item "><a className="nav-a text-decoration-none d-inline-block" aria-current="page" href="/entertainment">Entertainment| </a></li>
         <li className="nav-item "><a className="nav-a text-decoration-none d-inline-block" aria-current="page" href="/general">General| </a></li>
@@ -40,6 +33,5 @@ import React from 'react'
       </div>
     )
   }
-// }
 
 export default Navbar
